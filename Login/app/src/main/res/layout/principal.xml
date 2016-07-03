@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/descarga5">
+
+    <TextView
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="¡Bienvenido/a!"
+        android:id="@+id/textView4"
+        android:textSize="40dp"
+        android:textColor="#176df9"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hola. Esta aplicación la he creado para alguien especial, pero le he hecho unos cambios para publicarla aquí en GitHub, tiene un LogIn, pues nadie debería ingresar, pero ahora es público. No soy un experto, estoy comenzando, agradecería criticas contructivas de su parte, gracias por leer. Presiona continuar y te explicaré más."
+        android:id="@+id/textView5"
+        android:layout_weight="0.05"
+        android:textColor="#080808" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="02/07/2016"
+        android:id="@+id/textView6"
+        android:textColor="#f4c323"
+        android:textSize="30dp"
+        android:layout_weight="0.05"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:background="#f6cd4a" />
+</LinearLayout>

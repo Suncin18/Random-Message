@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/descarga6">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Mensajes!"
+        android:id="@+id/textView7"
+        android:textSize="40dp"
+        android:textColor="#fdfafd"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="En ésta sección se genera un mensaje sobre temas al azar, había un tema especifico, pero esto es parte de los cambios, es mi tercera aplicación y la segunda en android nativo (java). Como mencioné, agradezo comentarios sobre el código, el contenido (los mensajes) no es el original por lo que les pido no concentrarse tanto en eso"
+        android:id="@+id/textView8"
+        android:textColor="#ebeaea"
+        android:textSize="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Presiona &quot;Generar Mensaje&quot; y uno al azar se generará :D"
+        android:id="@+id/textView9"
+        android:textColor="#ebeaea"
+        android:textSize="20dp"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Generar Mensaje"
+        android:id="@+id/button3"
+        android:onClick="CrearMensaje"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:background="#fb8f8f" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar a Inicio"
+        android:id="@+id/button4" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
